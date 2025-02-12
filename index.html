@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard Clima</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Weather</h2>
+            <div class="weather-input">
+                <input type="text" name="city" id="city_input" placeholder="Enter city name">
+
+                <button type="button" id="searchBtn">
+                    <i class="fa-regular fa-search"></i>Search
+                </button>
+
+                <button type="button" id="locationBtn">
+                    <i class="bx bx-target-lock"></i>Current Location
+                </button>
+            </div>
+        </div>
+
+        <div class="weather-data">
+            <div class="weather-left">
+                <div class="card">
+                    <div class="current-weather">
+                        <div class="details">
+                            <p>Now</p>
+                            <h2>___&deg;C</h2>
+                            <p>____</p>
+                        </div>
+                        <div class="weather-icon">
+                                <img src="assets/04d@2x.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card-footer">
+                        <p><i class="fa-light fa-calendar"></i>______</p>
+                        <p><i class="fa-light fa-location-dot"></i>______</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>3 days Forecast</h2>
+
+                    <div class="day-forecast">
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="assets/02d@2x.png" alt="">
+                                <span>___&deg;C</span>
+                            </div>
+
+                            <p>____</p>
+                            <p>____</p>
+                        </div>
+                    </div>
+
+                    <div class="day-forecast">
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="assets/02d@2x.png" alt="">
+                                <span>___&deg;C</span>
+                            </div>
+
+                            <p>____</p>
+                            <p>____</p>
+                        </div>
+                    </div>
+
+                    <div class="day-forecast">
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="assets/02d@2x.png" alt="">
+                                <span>___&deg;C</span>
+                            </div>
+
+                            <p>____</p>
+                            <p>____</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
