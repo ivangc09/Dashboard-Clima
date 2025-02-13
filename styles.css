@@ -94,6 +94,7 @@ body{
 .card-footer p{
     font-size: 14px;
     margin-bottom: 12px;
+    margin-top: 10px;
 }
 
 .forecast-item{
