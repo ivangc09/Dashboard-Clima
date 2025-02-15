@@ -131,7 +131,7 @@ body{
 }
 
 .air-index{
-    color: black;
+    color: black !important;
     padding: 5px 10px;
     border-radius: 15px;
 }
