@@ -18,7 +18,7 @@ let apiKey = 'b827dd3423eb7efb584d8891fb6d8071';
 function getWeatherDetails(name,lat,lon,country,state){
     let FORECAST_API_URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`,
     WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`,
-    AIR_QUALITY_API_URL =  `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`
+    AIR_QUALITY_API_URL =  `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`
     days =[
         'Sunday',
         'Monday',
